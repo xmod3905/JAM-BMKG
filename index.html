@@ -42,12 +42,12 @@ function getthedate(){
 var clientDate = new Date();
 var serverdate = new Date(clientDate.getTime()+deltaD);
 var month=serverdate.getMonth()+1;
-var day=serverdate.getDate();
-var year=serverdate.getFullYear();
-var hours=serverdate.getHours();
-var minutes=serverdate.getMinutes();
-var seconds=serverdate.getSeconds();
-var milliseconds=serverdate.getMilliseconds();
+var day=clientDate.getDate();
+var year=clientDate.getFullYear();
+var hours=clientDate.getHours();
+var minutes=clientDate.getMinutes();
+var seconds=clientDate.getSeconds();
+var milliseconds=clientDate.getMilliseconds();
 var minggu=weekdaystxt[serverdate.getDay()]
 var bulan=monthstxt[serverdate.getMonth()]
 
